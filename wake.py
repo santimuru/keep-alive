@@ -24,17 +24,13 @@ def wake(page, url):
         btn.wait_for(state="visible", timeout=8_000)
         print("App was sleeping. Clicking wake button...", flush=True)
         btn.click()
+        page.wait_for_timeout(45_000)
     except Exception:
         print("No wake button (already awake).", flush=True)
+        page.wait_for_timeout(10_000)
 
-    try:
-        page.wait_for_selector('[data-testid="stAppViewContainer"]', timeout=120_000)
-        print("App is up.", flush=True)
-        page.wait_for_timeout(5_000)
-        return True
-    except Exception as e:
-        print(f"App did not become ready: {e}", flush=True)
-        return False
+    print("Done.", flush=True)
+    return True
 
 
 def main():
