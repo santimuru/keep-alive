@@ -6,6 +6,8 @@ APPS = [
     "https://customer-review-intelligence-santiagomuru.streamlit.app",
     "https://customer-clv-prediction-santiagomuru.streamlit.app",
     "https://tokyo-real-estate-explorer-santiagomuru.streamlit.app",
+    "https://telecom-churn-prediction-santiagomuru.streamlit.app",
+    "https://uplift-marketing-incrementality-santiagomuru.streamlit.app",
 ]
 
 WAKE_SELECTOR = 'button:has-text("Yes, get this app back up!")'
