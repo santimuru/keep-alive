@@ -11,7 +11,7 @@ Corre automáticamente a las **00:00, 09:00 y 18:00 UTC**. No requiere ninguna c
 | Telecom Churn · Survival Analysis | telecom-churn-survival-santiagomuru.streamlit.app |
 | Customer Review Intelligence | customer-review-intelligence-santiagomuru.streamlit.app |
 | Customer Lifetime Value Prediction | customer-clv-prediction-santiagomuru.streamlit.app |
-| Tokyo Real Estate Explorer | tokyo-real-estate-explorer-santiagomuru.streamlit.app |
+| Japan Real Estate Explorer | japan-real-estate-santimuru.streamlit.app |
 
 ## Agregar un proyecto nuevo
 
