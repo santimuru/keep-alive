@@ -8,6 +8,8 @@ APPS = [
     "https://japan-real-estate-santimuru.streamlit.app",
     "https://telecom-churn-prediction-santiagomuru.streamlit.app",
     "https://uplift-marketing-incrementality-santiagomuru.streamlit.app",
+    # GitHub Pages (static, never sleeps; pinged as an uptime check)
+    "https://santimuru.github.io/japan-insurance-retention/",
 ]
 
 WAKE_SELECTOR = 'button:has-text("Yes, get this app back up!")'
